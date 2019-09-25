@@ -1,0 +1,27 @@
+1- analyise the project to what it need
+2- install creat react app => npx create-react-app (you project name)
+using npx insted of npm will allow you to use create-react-app without the need to install it 
+3- go to materliaze website and copy the links and past them above your title in index.html
+4- shortcut becasue of the ES6 redux tool i have install => class base component (rce)
+function base component (rfn)
+
+// what thunk do ?
+1-perform asynchronous task inside of our action creators
+2-to return a function which will allow me to pause the dispatch action 
+then we can go and perform a asynchronous request like going and grabs
+some data or updates then resume the dispatch and pass
+it to the reducer
+3- so we can pass a function with two paramters insde our action and 
+inside this action i can make async call to database and then 
+dipatch the action
+
+// my add project process
+component => dispatch action => action creator => reducer
+
+// install package to use redux with firebase 
+npm install react-redux-firebase redux-firestore
+
+// solve react-redux and react-redux-firestore vwersion problem
+1-install react-redux @5.1.1
+
+
